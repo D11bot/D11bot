@@ -15,8 +15,8 @@ Internships, part-time or full-time roles in software engineering, computer visi
 
 ### Selected projects
 
-- **[Drone detection and stereo 3D localization](https://github.com/D11bot/drone-detection-and-stereo-localization)** (MSc team project; this repository contains my code): YOLO26s detection, camera calibration from flight telemetry and stereo triangulation. On images from a separate flight, detected 73 of 78 drones with 1 false positive.
-- **[LLM recipe assistant](https://github.com/D11bot/recipe-chatbot)** (team of three): recipe data pipeline and a FastAPI recommendation service called by the LLM as a tool, containerized with Docker Compose.
+- **[Drone detection and stereo 3D localization](https://github.com/D11bot/drone-detection-and-stereo-localization):** fine-tuned YOLO26s for small-drone detection, compared full-frame and tiled inference, and built a stereo pipeline that calibrates two cameras from DJI flight telemetry and triangulates 3D positions. On images from a separate flight, detected 73 of 78 drones with 1 false positive.
+- **[LLM recipe assistant](https://github.com/D11bot/recipe-chatbot):** built the recipe data pipeline (13,480 recipes, with ingredient names parsed for about 98% of 148,854 ingredient lines) and a FastAPI recommendation service that the LLM calls as a tool, containerized with Docker Compose.
 
 ### Happy to talk about
 
